@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 500px;
+    min-height: 500px;
+    box-shadow: 8px 8px 15px grey;
+    margin:70px 420px ;
+    position: relative;
+    padding: 30px;
+}
+.main h2{
+    font-size: 30px ;
+    font-weight: 900;
+    padding: 20px 20px;
+    color: rgb(27, 27, 99);
+    text-align: left;
+}
+.main input{
+    width: 80%;
+    position: relative;
+    padding: 19px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 242, 242);
+}
+#addbutton{
+    position: absolute;
+    padding: 17px 30px;
+    right: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 90, 77);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.Button{
+    padding: 8px;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 5px;
+    position: absolute;
+    right: 50px;
+}
+.editbutton{
+    position: absolute;
+    right: 100px;
+}
+.img{
+    width: 100%;
+}
+.divproperties{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.p{
+    color: rgb(95, 95, 95);
+    padding-right: 10rem;
+    /* line-break: auto; */
+    width: calc(100% - 30px);
+    word-wrap: break-word; 
+    text-align: justify;
+    text-align-last: start;
+    vertical-align: top;
+}
+.checkbox1{
+    border-radius: 50% !important;
+    width: 30px !important; 
+}
+.completetext{
+    position: absolute;
+    right: 120px;
+    font-size: 12px;
+    color: green;
+}
