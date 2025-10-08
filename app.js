@@ -3,28 +3,32 @@ function clearInputField(){
     task.value ="";
 }
 
-function saveTask() {
+function addTask() {
     let mainDiv =document.getElementById("div-main");
-    mainDiv.style.display ="block";
     let paragraph =document.createElement("p");
     paragraph.classList.add('p');
+
     let newDiv =document.createElement("div");
     newDiv.classList.add('divproperties');
      
     let checkbox = document.createElement("input");
     checkbox.type = 'checkbox';
     checkbox.classList.add('checkbox1');
+
     let label =document.createElement("label");
     label.textContent = task.value ;
+    
     checkbox.onclick = function(){
         if(checkbox.checked){
+            let complete = document.createElement('p');
+            complete.classList.add('completetext')
+            let comp_text =document.createTextNode("Completed");
+            
             label.style.textDecoration = 'line-through';
             checkbox.style.display ='none';
             editButton.remove();
-            let complete = document.createElement('p');
-            let comp_text =document.createTextNode("Completed");
+            
             complete.appendChild(comp_text);
-            complete.classList.add('completetext')
             newDiv.appendChild(complete);
             newDiv.style.marginLeft ='20px';
         }
@@ -52,10 +56,7 @@ function saveTask() {
     del_icon.src ="del-icon.png";
     del_icon.classList.add("img");
     
-    // let paragraphText =document.createTextNode(task);
     
-    // let editButtonText =document.createTextNode(editicon);
-    // let delButtonText = document.createTextNode("Delete Task")
     paragraph.appendChild(checkbox);
     paragraph.appendChild(label);
     editButton.appendChild(editicon);
