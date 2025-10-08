@@ -17,19 +17,19 @@ You can add, edit, delete, and mark tasks as completed — helping you manage yo
 
 🛠️ Technologies Used
 
-   HTML – structure of the app
+    HTML – structure of the app
 
-   CSS – for styling and layout
+    CSS – for styling and layout
 
-   JavaScript (DOM) – to handle task actions and interactivity
+    JavaScript (DOM) – to handle task actions and interactivity
 
 🚀 How It Works
 
-  Type your task in the input field and click “Add.”
+    Type your task in the input field and click “Add.”
 
-  Tasks will appear in a list with options to Edit, Delete, or Mark Complete.
+    Tasks will appear in a list with options to Edit, Delete, or Mark Complete.
 
-  Completed tasks are visually distinguished for better organization.
+    Completed tasks are visually distinguished for better organization.
 
 🔗 Ideal For
 
